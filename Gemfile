@@ -52,6 +52,18 @@ gem 'settingslogic'
 gem 'rest-client'
 gem 'carrierwave-aliyun'
 
+# OmniAuth
+gem 'omniauth-weibo-oauth2'
+
+# Alipay
+gem 'alipay'
+
+# Settings
+gem "rails-settings-cached"
+
+# Use Geohash to LBS
+gem 'geohash', github: 'RyanNaughton/geohash'
+
 # Redis
 gem 'hiredis'
 gem 'redis-namespace'
